@@ -44,6 +44,24 @@ describe('Tester les fonctions de la calculatrice basique', function() {
         expect(c1.resultat("25-200")).to.equal(-175);
         done();
     });
+    it('8. Verifier la puissancecarre ', function(done) {
+        let c1 = new CalculatriceTest();
+        expect(c1.resultat(c1.puissanceCarre(2)+"2")).to.equal(6);
+        done();
+    });
+    it('9. Verifier le puissance X ', function(done) {
+        let c1 = new CalculatriceTest();
+        expect(c1.resultat(c1.puissanceX(2)+"3+15")).to.equal(24);
+        done();
+        // 3 signifie la puissance mais il a fallu simuler l'insertion avec le php
+    });
+    it('10. Verifier la racine carré ', function(done) {
+        let c1 = new CalculatriceTest();
+        expect(c1.resultat(c1.racine(16)+"+4")).to.equal(8);
+        done();
+    });
+    
+
     
 
 
