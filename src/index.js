@@ -3,10 +3,10 @@ import { Calculatrice } from "./calculatrice";
     
 const c1 = new Calculatrice();
 
+
 document.getElementById("=").onclick = function(){
     document.getElementById("output").value = c1.resultat(document.getElementById("output").value);
 }
-
 
 document.getElementById("1").onclick = function(){
     document.getElementById("output").value+= 1;
@@ -61,4 +61,13 @@ document.getElementById("c").onclick = function(){
 }
 document.getElementById(".").onclick = function(){
     document.getElementById("output").value += ".";
+}
+document.getElementById("puissanceCarre").onclick = function(){
+    document.getElementById("output").value = c1.puissanceCarre(document.getElementById("output").value);
+}
+document.getElementById("puissanceX").onclick = function(){
+    document.getElementById("output").value = c1.puissanceX(document.getElementById("output").value);
+}
+document.getElementById("racine").onclick = function(){
+    document.getElementById("output").value = c1.racine(document.getElementById("output").value);
 }

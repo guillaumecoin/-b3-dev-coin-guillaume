@@ -46,12 +46,12 @@ describe('Tester les fonctions de la calculatrice basique', function() {
     });
     it('8. Verifier la puissancecarre ', function(done) {
         let c1 = new CalculatriceTest();
-        expect(c1.resultat(c1.puissanceCarre(2)+"2")).to.equal(6);
+        expect(c1.resultat(c1.puissanceCarre(2)+"+2")).to.equal(6);
         done();
     });
     it('9. Verifier le puissance X ', function(done) {
         let c1 = new CalculatriceTest();
-        expect(c1.resultat(c1.puissanceX(2)+"3+15")).to.equal(24);
+        expect(c1.resultat(c1.puissanceX(2)+"3+15")).to.equal(23);
         done();
         // 3 signifie la puissance mais il a fallu simuler l'insertion avec le php
     });
