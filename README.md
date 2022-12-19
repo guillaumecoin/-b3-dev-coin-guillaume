@@ -34,6 +34,11 @@ Plan de test :
 
 Exécuter les tests avec npm test
 
+Dans un premier temps les tests fonctionnels tels que addition, soustraction, multiplication et division ainsi que les opérations de type scientifique. 
+
+Les tests au niveau de l’utilisation sont la vérification de la priorité de calcul ainsi que la prise en compte des résultats négatifs.
+
+
 
 
 
