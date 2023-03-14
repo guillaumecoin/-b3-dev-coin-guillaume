@@ -60,6 +60,11 @@ describe('Tester les fonctions de la calculatrice basique', function() {
         expect(c1.resultat(c1.racine(16)+"+4")).to.equal(8);
         done();
     });
+    it('10. Verifier la racine carré failed ', function(done) {
+        let c1 = new CalculatriceTest();
+        expect(c1.resultat(c1.racine(16)+"+4")).to.equal(24);
+        done();
+    });
     
 
     
