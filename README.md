@@ -1,6 +1,7 @@
 # -b3-dev-coin-guillaume
 
 Projet Php donc à lancer avec un serveur comme wamp ou xamp (mac)
+Le fichier index.php se trouve dans src/index.php
 
 Les tests sont exécutés sur calculatricePourTest car un problème de module se déclenche lorsque je lance les tests.
 
