@@ -2,7 +2,7 @@
 Les tests sont exécutés sur calculatricePourTest car un problème de module se déclenche lorsque je lance les tests.
 
 
-Explication : 
+Explication: 
 
 avec ce type d’exportation les tests marche mais l’application non
 
